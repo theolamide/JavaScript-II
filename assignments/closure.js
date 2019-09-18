@@ -8,17 +8,17 @@ function Country(nameofcountry){
     const ethnicgroup2 = 'Igbo'
     const ethnicgroup3 = 'Hausa'
     const officiallang = 'English'
-    console.log(`${ethnicgroup1}, ${ethnicgroup2}, and ${ethnicgroup3} are the three main ethnic groups in ${nameofcountry} and ${officiallang} is the official language spoken`);
+    console.log(`${ethnicgroup1}, ${ethnicgroup2}, and ${ethnicgroup3} are the three main ethnic groups in ${nameofcountry} and ${officiallang} is the official language spoken.`);
 
       function Capitalcity(cityname){
-          console.log(`${cityname} is the capital of ${nameofcountry}`);
+          console.log(`${cityname} is the capital of ${nameofcountry}.`);
       
             function Othercities(Others){
                 const othercity1 = 'Ibadan'
                 const othercity2 = 'Lagos'
                 const othercity3 = 'Kano'
                 const othercity4 = 'Enugu'
-                console.log(`${Others} of importance include: 1. ${othercity1}: it is the largest city in West Africa. 2. ${othercity2}: it is the commercial nerve center of Africa. 3. ${othercity3}: it is an ancient city of importace to the ${ethnicgroup3} people`)
+                console.log(`${Others} of importance include: 1. ${othercity1}: it is the largest city in West Africa. 2. ${othercity2}: it is the commercial nerve center of Africa. 3. ${othercity3}: it is an ancient city of importace to the ${ethnicgroup3} people.`)
             }//closes Othercities
             Othercities('Other cities');
             
